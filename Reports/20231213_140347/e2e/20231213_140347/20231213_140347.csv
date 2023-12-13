@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+e2e,Chrome 119.0.0.0,,,13-12-2023 14:04:05,13-12-2023 14:05:04,58.411s,PASSED
+,,,,,,,
+Test Cases/e2e,Chrome 119.0.0.0,,,13-12-2023 14:04:06,13-12-2023 14:05:04,58.024s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,13-12-2023 14:04:07,13-12-2023 14:04:11,3.903s,PASSED
+"navigateToUrl(""https://stage.mobipaid.com/en/register"")",Chrome 119.0.0.0,,,13-12-2023 14:04:11,13-12-2023 14:04:22,11.230s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,,,13-12-2023 14:04:22,13-12-2023 14:04:22,0.341s,PASSED
+"setText(findTestObject(""Object Repository/input_signatory_first_name""), ""test"")",Chrome 119.0.0.0,input fname,,13-12-2023 14:04:22,13-12-2023 14:04:23,1.334s,PASSED
+"setText(findTestObject(""Object Repository/input_signatory_last_name""), ""test1"")",Chrome 119.0.0.0,input lname,,13-12-2023 14:04:23,13-12-2023 14:04:25,1.168s,PASSED
+"setText(findTestObject(""Object Repository/input_email""), ""hello1@gamil.com"")",Chrome 119.0.0.0,input email,,13-12-2023 14:04:25,13-12-2023 14:04:26,0.907s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_password""), ""jWModsK9zNSGtzParKYuZQ=="")",Chrome 119.0.0.0,input password,,13-12-2023 14:04:26,13-12-2023 14:04:26,0.578s,PASSED
+"setText(findTestObject(""Object Repository/input_name""), ""dasda"")",Chrome 119.0.0.0,input company name,,13-12-2023 14:04:26,13-12-2023 14:04:27,0.710s,PASSED
+"setText(findTestObject(""Object Repository/input_form-control btn-log border-grey int__5c974a""), ""347987978"")",Chrome 119.0.0.0,input random phone,,13-12-2023 14:04:27,13-12-2023 14:04:28,0.770s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/select_Your country                        _da403c""), ""12"", true)",Chrome 119.0.0.0,input country,,13-12-2023 14:04:28,13-12-2023 14:04:29,1.398s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/select_Your state  province (optional)nullsland""), ""Ísland"", true)",Chrome 119.0.0.0,input state,,13-12-2023 14:04:29,13-12-2023 14:04:30,1.152s,PASSED
+"click(findTestObject(""Object Repository/input_psa-checkbox""))",Chrome 119.0.0.0,,,13-12-2023 14:04:30,13-12-2023 14:04:31,0.605s,PASSED
+"setText(findTestObject(""Object Repository/input_signatory_first_name""), """")",Chrome 119.0.0.0,empty fname,,13-12-2023 14:04:31,13-12-2023 14:04:31,0.696s,PASSED
+"click(findTestObject(""Object Repository/button_register""))",Chrome 119.0.0.0,,,13-12-2023 14:04:31,13-12-2023 14:04:32,0.418s,PASSED
+"setText(findTestObject(""Object Repository/input_signatory_first_name""), ""test"")",Chrome 119.0.0.0,input fname,,13-12-2023 14:04:32,13-12-2023 14:04:33,0.762s,PASSED
+"click(findTestObject(""Object Repository/div_col-md-6 register-row""))",Chrome 119.0.0.0,,,13-12-2023 14:04:33,13-12-2023 14:04:33,0.460s,PASSED
+"setText(findTestObject(""Object Repository/input_signatory_last_name""), """")",Chrome 119.0.0.0,empty fname,,13-12-2023 14:04:33,13-12-2023 14:04:34,0.733s,PASSED
+"click(findTestObject(""Object Repository/button_register""))",Chrome 119.0.0.0,,,13-12-2023 14:04:34,13-12-2023 14:04:34,0.470s,PASSED
+"setText(findTestObject(""Object Repository/input_signatory_last_name""), ""test1"")",Chrome 119.0.0.0,,,13-12-2023 14:04:34,13-12-2023 14:04:35,0.761s,PASSED
+"setText(findTestObject(""Object Repository/input_email""), """")",Chrome 119.0.0.0,empty email,,13-12-2023 14:04:35,13-12-2023 14:04:36,0.726s,PASSED
+"click(findTestObject(""Object Repository/button_register""))",Chrome 119.0.0.0,,,13-12-2023 14:04:36,13-12-2023 14:04:36,0.593s,PASSED
+"setText(findTestObject(""Object Repository/input_email""), ""hello1@gamil1.com"")",Chrome 119.0.0.0,,,13-12-2023 14:04:36,13-12-2023 14:04:37,0.961s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_password""), ""9NLz+4tGZcQ="")",Chrome 119.0.0.0,,,13-12-2023 14:04:37,13-12-2023 14:04:38,0.477s,PASSED
+"click(findTestObject(""Object Repository/button_register""))",Chrome 119.0.0.0,,,13-12-2023 14:04:38,13-12-2023 14:04:38,0.408s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_password""), ""+jKycXn6u1w="")",Chrome 119.0.0.0,,,13-12-2023 14:04:38,13-12-2023 14:04:39,0.473s,PASSED
+"setText(findTestObject(""Object Repository/input_name""), ""dasda"")",Chrome 119.0.0.0,,,13-12-2023 14:04:39,13-12-2023 14:04:40,0.934s,PASSED
+"click(findTestObject(""Object Repository/input_name""))",Chrome 119.0.0.0,,,13-12-2023 14:04:40,13-12-2023 14:04:40,0.412s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_password""), ""jWModsK9zNSGtzParKYuZQ=="")",Chrome 119.0.0.0,,,13-12-2023 14:04:40,13-12-2023 14:04:41,0.546s,PASSED
+"setText(findTestObject(""Object Repository/input_name""), ""dasda"")",Chrome 119.0.0.0,,,13-12-2023 14:04:41,13-12-2023 14:04:41,0.846s,PASSED
+"click(findTestObject(""Object Repository/input_name""))",Chrome 119.0.0.0,,,13-12-2023 14:04:41,13-12-2023 14:04:42,0.399s,PASSED
+"click(findTestObject(""Object Repository/div_col-md-12 register-row""))",Chrome 119.0.0.0,,,13-12-2023 14:04:42,13-12-2023 14:04:42,0.388s,PASSED
+"setText(findTestObject(""Object Repository/input_name""), """")",Chrome 119.0.0.0,,,13-12-2023 14:04:42,13-12-2023 14:04:43,0.661s,PASSED
+"click(findTestObject(""Object Repository/button_register""))",Chrome 119.0.0.0,,,13-12-2023 14:04:43,13-12-2023 14:04:43,0.395s,PASSED
+"setText(findTestObject(""Object Repository/input_name""), ""dasda"")",Chrome 119.0.0.0,,,13-12-2023 14:04:43,13-12-2023 14:04:44,0.774s,PASSED
+"click(findTestObject(""Object Repository/input_name""))",Chrome 119.0.0.0,,,13-12-2023 14:04:44,13-12-2023 14:04:45,0.420s,PASSED
+"setText(findTestObject(""Object Repository/input_form-control btn-log border-grey int__5c974a""), """")",Chrome 119.0.0.0,,,13-12-2023 14:04:45,13-12-2023 14:04:45,0.932s,PASSED
+"click(findTestObject(""Object Repository/button_register""))",Chrome 119.0.0.0,,,13-12-2023 14:04:45,13-12-2023 14:04:46,0.421s,PASSED
+"setText(findTestObject(""Object Repository/input_form-control btn-log border-grey int__5c974a""), ""347987978"")",Chrome 119.0.0.0,,,13-12-2023 14:04:46,13-12-2023 14:04:47,0.747s,PASSED
+"click(findTestObject(""Object Repository/input_psa-checkbox""))",Chrome 119.0.0.0,,,13-12-2023 14:04:47,13-12-2023 14:04:47,0.493s,PASSED
+"click(findTestObject(""Object Repository/button_register""))",Chrome 119.0.0.0,,,13-12-2023 14:04:47,13-12-2023 14:04:48,0.492s,PASSED
+"click(findTestObject(""Object Repository/input_psa-checkbox""))",Chrome 119.0.0.0,,,13-12-2023 14:04:48,13-12-2023 14:04:48,0.412s,PASSED
+"click(findTestObject(""Object Repository/button_register""))",Chrome 119.0.0.0,,,13-12-2023 14:04:48,13-12-2023 14:04:48,0.424s,PASSED
+"setText(findTestObject(""Object Repository/input_form-control btn-log border-grey int__5c974a""), ""8967830011"")",Chrome 119.0.0.0,,,13-12-2023 14:04:48,13-12-2023 14:04:50,1.081s,PASSED
+"click(findTestObject(""Object Repository/button_register""))",Chrome 119.0.0.0,,,13-12-2023 14:04:50,13-12-2023 14:04:56,6.824s,PASSED
+"click(findTestObject(""Object Repository/div_Merchant Application""))",Chrome 119.0.0.0,,,13-12-2023 14:04:56,13-12-2023 14:05:03,6.929s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,13-12-2023 14:05:03,13-12-2023 14:05:04,0.563s,PASSED

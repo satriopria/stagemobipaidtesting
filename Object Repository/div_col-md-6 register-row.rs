@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_col-md-6 register-row</name>
+   <tag></tag>
+   <elementGuidId>e442983c-e81a-4b3f-9867-1a229bd9c147</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-md-6.register-row</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='formRegister']/div[3]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5147ecf6-1ce8-4929-b43c-beb71869de99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-md-6 register-row</value>
+      <webElementGuid>2b9b6499-9f07-4242-8c9a-aa4e2b00c4f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formRegister&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 register-row&quot;]</value>
+      <webElementGuid>36302fd2-9779-42e8-bd50-e476d95633b7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='formRegister']/div[3]/div</value>
+      <webElementGuid>cc21f3d9-d9f2-46fc-877a-29fa66ce344c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[3]/div</value>
+      <webElementGuid>dc893425-0709-4a97-956f-2971269d5fcd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

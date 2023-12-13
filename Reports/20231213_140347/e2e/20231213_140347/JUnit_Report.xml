@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="e2e" time="58.411" tests="1" failures="0" errors="0">
+   <testsuite name="e2e" tests="1" failures="0" errors="0" time="58.411" skipped="0" timestamp="13-12-2023T14:04:05" hostname="Asus - LAPTOP-EQPQ7FO1" id="Test Suites/e2e">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Asus\\Katalon Studio\\testingwednesday\\Reports\\20231213_140347\\e2e\\20231213_140347"/>
+         <property name="logFiles" value="C:\\Users\\Asus\\Katalon Studio\\testingwednesday\\Reports\\20231213_140347\\e2e\\20231213_140347\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asus - LAPTOP-EQPQ7FO1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="fdce7b09a8a33d4deab30fcfa90554cc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/e2e" time="58.024" classname="Test Cases/e2e" status="PASSED">
+         <system-out><![CDATA[13-12-2023T14:04:06 - [TEST_CASE][PASSED] - Test Cases/e2e: Test Cases/e2e
+
+13-12-2023T14:04:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-12-2023T14:04:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-12-2023T14:04:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-12-2023T14:04:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-12-2023T14:04:11 - [TEST_STEP][PASSED] - navigateToUrl("https://stage.mobipaid.com/en/register"): Navigate to 'https://stage.mobipaid.com/en/register' successfully
+
+13-12-2023T14:04:22 - [MESSAGE][PASSED] - Navigate to 'https://stage.mobipaid.com/en/register' successfully
+
+13-12-2023T14:04:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+13-12-2023T14:04:22 - [MESSAGE][PASSED] - Current window maximized
+
+13-12-2023T14:04:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_signatory_first_name"), "test"): Text 'test' is set on object 'Object Repository/input_signatory_first_name'
+
+13-12-2023T14:04:23 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/input_signatory_first_name'
+
+13-12-2023T14:04:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_signatory_last_name"), "test1"): Text 'test1' is set on object 'Object Repository/input_signatory_last_name'
+
+13-12-2023T14:04:25 - [MESSAGE][PASSED] - Text 'test1' is set on object 'Object Repository/input_signatory_last_name'
+
+13-12-2023T14:04:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_email"), "hello1@gamil.com"): Text 'hello1@gamil.com' is set on object 'Object Repository/input_email'
+
+13-12-2023T14:04:26 - [MESSAGE][PASSED] - Text 'hello1@gamil.com' is set on object 'Object Repository/input_email'
+
+13-12-2023T14:04:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_password"), "jWModsK9zNSGtzParKYuZQ=="): Text ****** has been set on object 'Object Repository/input_password'
+
+13-12-2023T14:04:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_password'
+
+13-12-2023T14:04:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_name"), "dasda"): Text 'dasda' is set on object 'Object Repository/input_name'
+
+13-12-2023T14:04:27 - [MESSAGE][PASSED] - Text 'dasda' is set on object 'Object Repository/input_name'
+
+13-12-2023T14:04:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_form-control btn-log border-grey int__5c974a"), "347987978"): Text '347987978' is set on object 'Object Repository/input_form-control btn-log border-grey int__5c974a'
+
+13-12-2023T14:04:28 - [MESSAGE][PASSED] - Text '347987978' is set on object 'Object Repository/input_form-control btn-log border-grey int__5c974a'
+
+13-12-2023T14:04:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/select_Your country                        _da403c"), "12", true): All options with value '12' are selected in object 'Object Repository/select_Your country                        _da403c'  using regular expression
+
+13-12-2023T14:04:29 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/select_Your country                        _da403c'  using regular expression
+
+13-12-2023T14:04:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/select_Your state  province (optional)nullsland"), "Ísland", true): All options with value 'Ísland' are selected in object 'Object Repository/select_Your state  province (optional)nullsland'  using regular expression
+
+13-12-2023T14:04:30 - [MESSAGE][PASSED] - All options with value 'Ísland' are selected in object 'Object Repository/select_Your state  province (optional)nullsland'  using regular expression
+
+13-12-2023T14:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/input_psa-checkbox")): Object: 'Object Repository/input_psa-checkbox' is clicked on
+
+13-12-2023T14:04:31 - [MESSAGE][PASSED] - Object: 'Object Repository/input_psa-checkbox' is clicked on
+
+13-12-2023T14:04:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_signatory_first_name"), ""): Text '' is set on object 'Object Repository/input_signatory_first_name'
+
+13-12-2023T14:04:31 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/input_signatory_first_name'
+
+13-12-2023T14:04:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_register")): Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:32 - [MESSAGE][PASSED] - Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_signatory_first_name"), "test"): Text 'test' is set on object 'Object Repository/input_signatory_first_name'
+
+13-12-2023T14:04:33 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/input_signatory_first_name'
+
+13-12-2023T14:04:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/div_col-md-6 register-row")): Object: 'Object Repository/div_col-md-6 register-row' is clicked on
+
+13-12-2023T14:04:33 - [MESSAGE][PASSED] - Object: 'Object Repository/div_col-md-6 register-row' is clicked on
+
+13-12-2023T14:04:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_signatory_last_name"), ""): Text '' is set on object 'Object Repository/input_signatory_last_name'
+
+13-12-2023T14:04:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/input_signatory_last_name'
+
+13-12-2023T14:04:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_register")): Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:34 - [MESSAGE][PASSED] - Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_signatory_last_name"), "test1"): Text 'test1' is set on object 'Object Repository/input_signatory_last_name'
+
+13-12-2023T14:04:35 - [MESSAGE][PASSED] - Text 'test1' is set on object 'Object Repository/input_signatory_last_name'
+
+13-12-2023T14:04:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_email"), ""): Text '' is set on object 'Object Repository/input_email'
+
+13-12-2023T14:04:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/input_email'
+
+13-12-2023T14:04:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_register")): Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_email"), "hello1@gamil1.com"): Text 'hello1@gamil1.com' is set on object 'Object Repository/input_email'
+
+13-12-2023T14:04:37 - [MESSAGE][PASSED] - Text 'hello1@gamil1.com' is set on object 'Object Repository/input_email'
+
+13-12-2023T14:04:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_password"), "9NLz+4tGZcQ="): Text ****** has been set on object 'Object Repository/input_password'
+
+13-12-2023T14:04:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_password'
+
+13-12-2023T14:04:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_register")): Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:38 - [MESSAGE][PASSED] - Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_password"), "+jKycXn6u1w="): Text ****** has been set on object 'Object Repository/input_password'
+
+13-12-2023T14:04:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_password'
+
+13-12-2023T14:04:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_name"), "dasda"): Text 'dasda' is set on object 'Object Repository/input_name'
+
+13-12-2023T14:04:40 - [MESSAGE][PASSED] - Text 'dasda' is set on object 'Object Repository/input_name'
+
+13-12-2023T14:04:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/input_name")): Object: 'Object Repository/input_name' is clicked on
+
+13-12-2023T14:04:40 - [MESSAGE][PASSED] - Object: 'Object Repository/input_name' is clicked on
+
+13-12-2023T14:04:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_password"), "jWModsK9zNSGtzParKYuZQ=="): Text ****** has been set on object 'Object Repository/input_password'
+
+13-12-2023T14:04:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_password'
+
+13-12-2023T14:04:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_name"), "dasda"): Text 'dasda' is set on object 'Object Repository/input_name'
+
+13-12-2023T14:04:41 - [MESSAGE][PASSED] - Text 'dasda' is set on object 'Object Repository/input_name'
+
+13-12-2023T14:04:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/input_name")): Object: 'Object Repository/input_name' is clicked on
+
+13-12-2023T14:04:42 - [MESSAGE][PASSED] - Object: 'Object Repository/input_name' is clicked on
+
+13-12-2023T14:04:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/div_col-md-12 register-row")): Object: 'Object Repository/div_col-md-12 register-row' is clicked on
+
+13-12-2023T14:04:42 - [MESSAGE][PASSED] - Object: 'Object Repository/div_col-md-12 register-row' is clicked on
+
+13-12-2023T14:04:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_name"), ""): Text '' is set on object 'Object Repository/input_name'
+
+13-12-2023T14:04:43 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/input_name'
+
+13-12-2023T14:04:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_register")): Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_name"), "dasda"): Text 'dasda' is set on object 'Object Repository/input_name'
+
+13-12-2023T14:04:44 - [MESSAGE][PASSED] - Text 'dasda' is set on object 'Object Repository/input_name'
+
+13-12-2023T14:04:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/input_name")): Object: 'Object Repository/input_name' is clicked on
+
+13-12-2023T14:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/input_name' is clicked on
+
+13-12-2023T14:04:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_form-control btn-log border-grey int__5c974a"), ""): Text '' is set on object 'Object Repository/input_form-control btn-log border-grey int__5c974a'
+
+13-12-2023T14:04:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/input_form-control btn-log border-grey int__5c974a'
+
+13-12-2023T14:04:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_register")): Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_form-control btn-log border-grey int__5c974a"), "347987978"): Text '347987978' is set on object 'Object Repository/input_form-control btn-log border-grey int__5c974a'
+
+13-12-2023T14:04:47 - [MESSAGE][PASSED] - Text '347987978' is set on object 'Object Repository/input_form-control btn-log border-grey int__5c974a'
+
+13-12-2023T14:04:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/input_psa-checkbox")): Object: 'Object Repository/input_psa-checkbox' is clicked on
+
+13-12-2023T14:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/input_psa-checkbox' is clicked on
+
+13-12-2023T14:04:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_register")): Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/input_psa-checkbox")): Object: 'Object Repository/input_psa-checkbox' is clicked on
+
+13-12-2023T14:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/input_psa-checkbox' is clicked on
+
+13-12-2023T14:04:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_register")): Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_form-control btn-log border-grey int__5c974a"), "8967830011"): Text '8967830011' is set on object 'Object Repository/input_form-control btn-log border-grey int__5c974a'
+
+13-12-2023T14:04:50 - [MESSAGE][PASSED] - Text '8967830011' is set on object 'Object Repository/input_form-control btn-log border-grey int__5c974a'
+
+13-12-2023T14:04:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_register")): Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:56 - [MESSAGE][PASSED] - Object: 'Object Repository/button_register' is clicked on
+
+13-12-2023T14:04:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/div_Merchant Application")): Object: 'Object Repository/div_Merchant Application' is clicked on
+
+13-12-2023T14:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/div_Merchant Application' is clicked on
+
+13-12-2023T14:05:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-12-2023T14:05:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-12-2023T14:04:05 - [TEST_SUITE][PASSED] - e2e: Test Cases/e2e]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
